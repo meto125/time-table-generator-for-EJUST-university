@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Course Scheduler</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        
+        /* Alerts */
+        .flash { padding: 15px; margin-bottom: 20px; border-radius: 4px; }
+        .success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        
+        /* Headers */
+        h1, h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #333; }
+        h2 { margin-top: 30px; font-size: 1.2rem; text-transform: uppercase; color: #555; }
+
+        /* Forms */
+        .form-row { display: flex; gap: 20px; margin-bottom: 15px; }
+        .form-group { flex: 1; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #444; }
+        input[type="text"], input[type="number"], select { 
+            width: 100%; padding: 10px; box-sizing: border-box; border: 1px solid #ddd; border-radius: 4px;
+        }
+        
+        /* Checkboxes & Lists */
+        .section-box {
+            height: 120px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; background: #fafafa; border-radius: 4px;
+        }
+        .section-item { display: inline-block; width: 30%; margin-bottom: 5px; font-size: 0.9rem; }
+        
+        /* Buttons */
+        input[type="submit"], .btn-link { 
+            padding: 12px 25px; cursor: pointer; color: white; border: none; border-radius: 4px; font-size: 16px; margin-top: 10px;
+            text-decoration: none; display: inline-block; text-align: center;
+        }
+        .btn-add { background-color: #28a745; }
+        .btn-add:hover { background-color: #218838; }
+        
+        .btn-run { background-color: #007bff; width: 100%; }
+        .btn-run:hover { background-color: #0069d9; }
+
+        .btn-del { background-color: #dc3545; }
+        .btn-del:hover { background-color: #c82333; }
+        
+        .btn-view { background-color: #17a2b8; width: 100%; margin-bottom: 20px;}
+        .btn-view:hover { background-color: #138496; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📅 Course Scheduler & Manager</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <h2>➕ Add New Course</h2>
+    <form method="POST" action="/">
+        <div class="form-row">
+            <div class="form-group">
+                <label>Course ID:</label>
+                <input type="text" name="new_course_id" required placeholder="NEW101">
+            </div>
+            <div class="form-group">
+                <label>Course Name:</label>
+                <input type="text" name="new_course_name" placeholder="Intro to AI">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Credits:</label>
+                <input type="number" name="new_credits" value="3" min="1" max="6">
+            </div>
+            
+            <div class="form-group">
+                <label>Year:</label>
+                <input type="number" name="new_year" value="4" min="1" max="5">
+            </div>
+        </div>
+        
+        <div class="form-group">
+             <label>Specialization:</label>
+             <input type="text" name="new_specialization" value="Common">
+        </div>
+
+        <div style="margin: 10px 0;">
+            <input type="checkbox" name="new_has_lecture" > Has Lecture &nbsp;
+            <input type="checkbox" name="new_has_lab" > Has Lab &nbsp;
+            <input type="checkbox" name="new_is_grad_project"> Is Grad Project
+        </div>
+
+        <label>Assign to Sections:</label>
+        <div class="section-box">
+            {% if all_sections %}
+                {% for sec in all_sections %}
+                    <div class="section-item">
+                        <input type="checkbox" id="s_{{ sec }}" name="target_sections" value="{{ sec }}">
+                        <label for="s_{{ sec }}" style="display:inline; font-weight:normal;">{{ sec }}</label>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <span style="color:red;">No sections found.</span>
+            {% endif %}
+        </div>
+        
+        <input type="hidden" name="base_path" value="{{ default_base }}">
+        <input type="submit" name="add_course_submit" value="Add Course" class="btn-add">
+    </form>
+
+    <h2>🗑️ Delete Course</h2>
+
+<form method="POST" action="/" 
+      onsubmit="return confirm('Are you sure? This will remove the course from selected sections.');">
+
+    <div class="form-row">
+        <div class="form-group">
+            <label>Select Course to Delete:</label>
+            <select name="course_to_delete" required>
+                <option value="" disabled selected>-- Select a Course --</option>
+                {% for course_id, course_name in all_courses %}
+                    <option value="{{ course_id }}">{{ course_id }} - {{ course_name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <label>Delete From Sections:</label>
+    <div class="section-box">
+        {% for sec in all_sections %}
+            <div class="section-item">
+                <input type="checkbox" name="delete_sections" value="{{ sec }}">
+                <label style="display:inline;">{{ sec }}</label>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div style="margin-top:10px;">
+        <input type="checkbox" name="delete_all_sections" >
+        <strong>Delete from ALL sections</strong>
+    </div>
+
+    <input type="hidden" name="base_path" value="{{ default_base }}">
+    <input type="submit" name="delete_course_submit" value="Delete Course" class="btn-del">
+</form>
+
+
+    <hr>
+    
+    <h2>▶️ Run Scheduler</h2>
+    <form method="POST" action="/">
+        <label>Base Data Path:</label>
+        <input type="text" name="base_path" value="{{ default_base }}" required>
+        <br>
+        <input type="submit" name="run_scheduler_submit" value="Run Course Scheduler" class="btn-run">
+    </form>
+
+    {% if schedule_exists %}
+    <a href="{{ url_for('view_schedule') }}" class="btn-link btn-view">
+        View Timetable Visualization (HTML Grid)
+    </a>
+    {% endif %}
+
+
+    {% if result %}
+    <hr>
+    <h2>✅ Scheduler Results</h2>
+    <p><strong>Status:</strong> 
+        {% if result.feasible %}
+            <span style="color: green; font-weight:bold;">Feasible</span>
+        {% else %}
+            <span style="color: red; font-weight:bold;">Infeasible</span>
+        {% endif %}
+    </p>
+    <p>Scheduled: {{ result.scheduled }} / {{ result.total_sessions }} sessions.</p>
+
+    <h3>Download: <a href="{{ url_for('download', fname=result.outputs.sections_csv) }}">{{ result.outputs.sections_csv }}</a></h3>
+    
+    {% if result.violation_counts %}
+    <h3>Violations (Search Process):</h3>
+    <ul>
+        {% for violation, count in result.violation_counts.items() %}
+            {% if count > 0 %}<li>{{ violation }}: {{ count }}</li>{% endif %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endif %}
+</div>
+</body>
+</html>

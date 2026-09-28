@@ -1,0 +1,303 @@
+TimeSlotID,RoomID,InstructorID,SectionID,CourseID,CourseName,Component,Day,StartTime,EndTime,StartMin,EndMin,InstructorName
+1,B07-F0,PROF17,S1_BIF_L4,BIF424,IT Infrastructure,Lab,Sunday,9:00,10:30,540,630,Dr. Mohamed Akhames
+1,COE-F21,PROF16,S1_CSC_L4,CSC426,Distributed Systems,Lab,Sunday,9:00,10:30,540,630,Dr. Mustafa AlSayed
+2,B07-F0,PROF16,S1_CSC_L4,CSC412,Software Security,Lab,Sunday,10:45,12:15,645,735,Dr. Mustafa AlSayed
+3,B07-F0,PROF11,S1_CSC_L4,CSC415,New Trends in Computer Science,Lab,Sunday,12:30,2:00,750,840,Dr. Ahmed Bayumi
+4,B07-F0,PROF01,S1_CSC_L4,CSC413,Graduation Project (1),Lab,Sunday,2:15,3:45,855,945,Dr. Reda Elbasiony
+1,COE-F22,PROF07,S4_AID_L4,AID427,New Trends in Data Science,Lab,Sunday,9:00,10:30,540,630,Dr. Ahmed Arafa
+5,B07-F0,PROF17,S1_CSC_L4,CSC411,Software Verification and Validation (V&V),Lab,Monday,9:00,10:30,540,630,Dr. Mohamed Akhames
+2,COE-F21,PROF07,S3_AID_L4,AID427,New Trends in Data Science,Lab,Sunday,10:45,12:15,645,735,Dr. Ahmed Arafa
+2,COE-F22,PROF06,S1_BIF_L4,BIF412,Management and Design of Health Care Systems,Lab,Sunday,10:45,12:15,645,735,Dr. Sameh Sherif
+3,COE-F21,PROF07,S2_AID_L4,AID427,New Trends in Data Science,Lab,Sunday,12:30,2:00,750,840,Dr. Ahmed Arafa
+6,B07-F0,PROF17,S1_CSC_L4,CSC410,Software Quality,Lab,Monday,10:45,12:15,645,735,Dr. Mohamed Akhames
+3,COE-F22,PROF01,S1_BIF_L4,BIF410,Graduation Project (1),Lab,Sunday,12:30,2:00,750,840,Dr. Reda Elbasiony
+4,COE-F21,PROF07,S1_AID_L4,AID427,New Trends in Data Science,Lab,Sunday,2:15,3:45,855,945,Dr. Ahmed Arafa
+1,COE-F11,AP02,S2_AID_L4,AID411,BIG Data Analytics & Visualization,Lab,Sunday,9:00,10:30,540,630,Eng. Nada Essam
+1,B17-G22,AP07,S4_CNC_L3,CNC312,Foundations of Information Systems,Lab,Sunday,9:00,10:30,540,630,Eng. Menna Hamdi
+1,B18-G1,AP13,S6_L1,PHY113,Physics 1,Lab,Sunday,9:00,10:30,540,630,Eng. Laila Ibrahim
+2,COE-F11,AP07,S3_CNC_L3,CNC312,Foundations of Information Systems,Lab,Sunday,10:45,12:15,645,735,Eng. Menna Hamdi
+2,B17-G22,AP13,S7_L1,PHY113,Physics 1,Lab,Sunday,10:45,12:15,645,735,Eng. Laila Ibrahim
+2,B18-G1,AP09,S4_AID_L4,AID428,New Trends in AI,Lab,Sunday,10:45,12:15,645,735,Eng. Heba Abdelkader
+3,COE-F11,AP07,S2_CNC_L3,CNC312,Foundations of Information Systems,Lab,Sunday,12:30,2:00,750,840,Eng. Menna Hamdi
+3,B17-G22,PROF13,S1_CNC_L3,CNC312,Foundations of Information Systems,Lab,Sunday,12:30,2:00,750,840,Dr. Reda
+3,B18-G1,AP13,S8_L1,PHY113,Physics 1,Lab,Sunday,12:30,2:00,750,840,Eng. Laila Ibrahim
+4,COE-F22,PROF14,S4_AID_L4,AID413,Data Security,Lab,Sunday,2:15,3:45,855,945,Prof. Samir Ahmed
+4,COE-F11,AP13,S9_L1,PHY113,Physics 1,Lab,Sunday,2:15,3:45,855,945,Eng. Laila Ibrahim
+5,COE-F21,AP02,S4_AID_L4,AID411,BIG Data Analytics & Visualization,Lab,Monday,9:00,10:30,540,630,Eng. Nada Essam
+4,B17-G22,AP03,S1_BIF_L3,CSC114,Algorithms Analysis and Design,Lab,Sunday,2:15,3:45,855,945,Eng. Salma Alashry
+4,B18-G1,AP07,S1_L2,CNC111,Networks and Web Programming,Lab,Sunday,2:15,3:45,855,945,Eng. Menna Hamdi
+5,COE-F22,AP09,S3_AID_L4,AID428,New Trends in AI,Lab,Monday,9:00,10:30,540,630,Eng. Heba Abdelkader
+5,COE-F11,PROF18,S1_AID_L4,AID411,BIG Data Analytics & Visualization,Lab,Monday,9:00,10:30,540,630,Prof. Marghany Hassan
+5,B17-G22,AP07,S3_L2,CNC111,Networks and Web Programming,Lab,Monday,9:00,10:30,540,630,Eng. Menna Hamdi
+6,COE-F21,PROF07,S3_AID_L4,AID413,Data Security,Lab,Monday,10:45,12:15,645,735,Dr. Ahmed Arafa
+6,COE-F22,PROF14,S1_AID_L4,AID413,Data Security,Lab,Monday,10:45,12:15,645,735,Prof. Samir Ahmed
+5,B18-G1,AP13,S5_L1,PHY113,Physics 1,Lab,Monday,9:00,10:30,540,630,Eng. Laila Ibrahim
+7,B07-F0,AP02,S3_AID_L4,AID411,BIG Data Analytics & Visualization,Lab,Monday,12:30,2:00,750,840,Eng. Nada Essam
+6,COE-F11,AP07,S5_L2,CNC111,Networks and Web Programming,Lab,Monday,10:45,12:15,645,735,Eng. Menna Hamdi
+6,B17-G22,AP09,S2_AID_L4,AID428,New Trends in AI,Lab,Monday,10:45,12:15,645,735,Eng. Heba Abdelkader
+6,B18-G1,PROF19,S6_L2,CNC111,Networks and Web Programming,Lab,Monday,10:45,12:15,645,735,Dr. Nadia Fawzy
+7,COE-F21,AP07,S7_L2,CNC111,Networks and Web Programming,Lab,Monday,12:30,2:00,750,840,Eng. Menna Hamdi
+7,COE-F22,PROF19,S8_L2,CNC111,Networks and Web Programming,Lab,Monday,12:30,2:00,750,840,Dr. Nadia Fawzy
+7,COE-F11,PROF07,S2_AID_L4,AID413,Data Security,Lab,Monday,12:30,2:00,750,840,Dr. Ahmed Arafa
+8,B07-F0,AP07,S9_L2,CNC111,Networks and Web Programming,Lab,Monday,2:15,3:45,855,945,Eng. Menna Hamdi
+7,B17-G22,AP09,S1_AID_L4,AID428,New Trends in AI,Lab,Monday,12:30,2:00,750,840,Eng. Heba Abdelkader
+8,COE-F21,PROF19,S4_L2,CNC111,Networks and Web Programming,Lab,Monday,2:15,3:45,855,945,Dr. Nadia Fawzy
+9,B07-F0,AP07,S2_L2,CNC111,Networks and Web Programming,Lab,Tuesday,9:00,10:30,540,630,Eng. Menna Hamdi
+7,B18-G1,AP13,S3_L1,PHY113,Physics 1,Lab,Monday,12:30,2:00,750,840,Eng. Laila Ibrahim
+8,COE-F22,AP02,S1_BIF_L4,BIF425,New Trends in Bioinformatics,Lab,Monday,2:15,3:45,855,945,Eng. Nada Essam
+9,COE-F21,AP18,S1_BIF_L4,BIF413,Algorithms in Bioinformatics,Lab,Tuesday,9:00,10:30,540,630,Eng. Alaa Essam
+8,COE-F11,AP13,S2_L1,PHY113,Physics 1,Lab,Monday,2:15,3:45,855,945,Eng. Laila Ibrahim
+8,B17-G22,PROF03,S1_L1,PHY113,Physics 1,Lab,Monday,2:15,3:45,855,945,Dr. Adel Fathy
+9,COE-F22,AP13,S4_L1,PHY113,Physics 1,Lab,Tuesday,9:00,10:30,540,630,Eng. Laila Ibrahim
+8,B18-G1,PROF05,S7_L1,ECE111,Digital Logic Design,Lab,Monday,2:15,3:45,855,945,Prof. Ahmed Allam
+9,COE-F11,AP06,S4_AID_L3,AID312,Intelligent Systems,Lab,Tuesday,9:00,10:30,540,630,Eng. Salma Waleed
+9,B17-G22,AP04,S8_L1,CSC111,Fundamentals of Programming,Lab,Tuesday,9:00,10:30,540,630,Eng. Mariam Ismael
+9,B18-G1,AP05,S2_L1,CSC111,Fundamentals of Programming,Lab,Tuesday,9:00,10:30,540,630,Eng. Nada Hamdy
+10,B07-F0,AP04,S3_L1,CSC111,Fundamentals of Programming,Lab,Tuesday,10:45,12:15,645,735,Eng. Mariam Ismael
+10,COE-F21,AP06,S3_AID_L3,AID311,Mathematics of Data Science,Lab,Tuesday,10:45,12:15,645,735,Eng. Salma Waleed
+11,B07-F0,AP01,S3_AID_L3,CNC311,Computer Networks,Lab,Tuesday,12:30,2:00,750,840,Eng. Fatma Elsayed
+10,COE-F22,AP13,S8_L1,ECE111,Digital Logic Design,Lab,Tuesday,10:45,12:15,645,735,Eng. Laila Ibrahim
+10,COE-F11,PROF05,S1_L1,ECE111,Digital Logic Design,Lab,Tuesday,10:45,12:15,645,735,Prof. Ahmed Allam
+10,B17-G22,AP11,S2_L2,CSC211,Software Engineering,Lab,Tuesday,10:45,12:15,645,735,Eng. Menna Magdy
+10,B18-G1,AP01,S4_AID_L3,CNC311,Computer Networks,Lab,Tuesday,10:45,12:15,645,735,Eng. Fatma Elsayed
+11,COE-F21,AP11,S9_L2,CSC211,Software Engineering,Lab,Tuesday,12:30,2:00,750,840,Eng. Menna Magdy
+11,COE-F22,AP06,S2_AID_L3,AID311,Mathematics of Data Science,Lab,Tuesday,12:30,2:00,750,840,Eng. Salma Waleed
+11,COE-F11,AP04,S9_L1,CSC111,Fundamentals of Programming,Lab,Tuesday,12:30,2:00,750,840,Eng. Mariam Ismael
+11,B17-G22,AP13,S2_L1,ECE111,Digital Logic Design,Lab,Tuesday,12:30,2:00,750,840,Eng. Laila Ibrahim
+12,B07-F0,AP01,S2_AID_L3,CNC311,Computer Networks,Lab,Tuesday,2:15,3:45,855,945,Eng. Fatma Elsayed
+11,B18-G1,AP12,S6_L2,CSC211,Software Engineering,Lab,Tuesday,12:30,2:00,750,840,Eng. Nada Ahmed
+12,COE-F21,AP13,S3_L1,ECE111,Digital Logic Design,Lab,Tuesday,2:15,3:45,855,945,Eng. Laila Ibrahim
+12,COE-F22,PROF05,S9_L1,ECE111,Digital Logic Design,Lab,Tuesday,2:15,3:45,855,945,Prof. Ahmed Allam
+13,B07-F0,AP06,S2_AID_L3,AID312,Intelligent Systems,Lab,Wednesday,9:00,10:30,540,630,Eng. Salma Waleed
+12,COE-F11,AP06,S1_AID_L3,AID312,Intelligent Systems,Lab,Tuesday,2:15,3:45,855,945,Eng. Salma Waleed
+13,COE-F21,AP14,S1_AID_L3,AID311,Mathematics of Data Science,Lab,Wednesday,9:00,10:30,540,630,Eng. Tarek Salah
+12,B17-G22,AP10,S3_AID_L3,AID312,Intelligent Systems,Lab,Tuesday,2:15,3:45,855,945,Eng. Nourhan Waleed
+12,B18-G1,AP05,S1_BIF_L3,CNC311,Computer Networks,Lab,Tuesday,2:15,3:45,855,945,Eng. Nada Hamdy
+13,COE-F22,AP11,S1_L2,CSC211,Software Engineering,Lab,Wednesday,9:00,10:30,540,630,Eng. Menna Magdy
+14,B07-F0,AP01,S1_AID_L3,CNC311,Computer Networks,Lab,Wednesday,10:45,12:15,645,735,Eng. Fatma Elsayed
+13,COE-F11,AP10,S4_CNC_L3,AID312,Intelligent Systems,Lab,Wednesday,9:00,10:30,540,630,Eng. Nourhan Waleed
+13,B17-G22,AP04,S5_L1,CSC111,Fundamentals of Programming,Lab,Wednesday,9:00,10:30,540,630,Eng. Mariam Ismael
+13,B18-G1,AP05,S1_L1,CSC111,Fundamentals of Programming,Lab,Wednesday,9:00,10:30,540,630,Eng. Nada Hamdy
+14,COE-F21,AP11,S5_L2,CSC211,Software Engineering,Lab,Wednesday,10:45,12:15,645,735,Eng. Menna Magdy
+14,COE-F22,AP12,S3_L2,CSC211,Software Engineering,Lab,Wednesday,10:45,12:15,645,735,Eng. Nada Ahmed
+14,COE-F11,AP05,S3_CNC_L3,CNC311,Computer Networks,Lab,Wednesday,10:45,12:15,645,735,Eng. Nada Hamdy
+14,B17-G22,AP13,S5_L1,ECE111,Digital Logic Design,Lab,Wednesday,10:45,12:15,645,735,Eng. Laila Ibrahim
+14,B18-G1,AP06,S1_CSC_L3,AID312,Intelligent Systems,Lab,Wednesday,10:45,12:15,645,735,Eng. Salma Waleed
+15,B07-F0,AP06,S3_CNC_L3,AID312,Intelligent Systems,Lab,Wednesday,12:30,2:00,750,840,Eng. Salma Waleed
+15,COE-F21,AP11,S8_L2,CSC211,Software Engineering,Lab,Wednesday,12:30,2:00,750,840,Eng. Menna Magdy
+15,COE-F22,AP13,S4_L1,ECE111,Digital Logic Design,Lab,Wednesday,12:30,2:00,750,840,Eng. Laila Ibrahim
+15,COE-F11,AP01,S1_CSC_L3,CNC311,Computer Networks,Lab,Wednesday,12:30,2:00,750,840,Eng. Fatma Elsayed
+15,B17-G22,AP04,S6_L1,CSC111,Fundamentals of Programming,Lab,Wednesday,12:30,2:00,750,840,Eng. Mariam Ismael
+15,B18-G1,AP05,S2_CNC_L3,CNC311,Computer Networks,Lab,Wednesday,12:30,2:00,750,840,Eng. Nada Hamdy
+16,B07-F0,AP06,S2_CNC_L3,AID312,Intelligent Systems,Lab,Wednesday,2:15,3:45,855,945,Eng. Salma Waleed
+16,COE-F21,AP14,S1_CSC_L3,AID311,Mathematics of Data Science,Lab,Wednesday,2:15,3:45,855,945,Eng. Tarek Salah
+16,COE-F22,AP13,S6_L1,ECE111,Digital Logic Design,Lab,Wednesday,2:15,3:45,855,945,Eng. Laila Ibrahim
+16,COE-F11,AP11,S7_L2,CSC211,Software Engineering,Lab,Wednesday,2:15,3:45,855,945,Eng. Menna Magdy
+16,B17-G22,AP12,S4_L2,CSC211,Software Engineering,Lab,Wednesday,2:15,3:45,855,945,Eng. Nada Ahmed
+16,B18-G1,AP01,S1_CNC_L3,CNC311,Computer Networks,Lab,Wednesday,2:15,3:45,855,945,Eng. Fatma Elsayed
+17,B07-F0,AP04,S7_L1,CSC111,Fundamentals of Programming,Lab,Thursday,9:00,10:30,540,630,Eng. Mariam Ismael
+17,COE-F21,AP06,S1_CNC_L3,AID312,Intelligent Systems,Lab,Thursday,9:00,10:30,540,630,Eng. Salma Waleed
+17,COE-F22,AP10,S1_BIF_L3,AID312,Intelligent Systems,Lab,Thursday,9:00,10:30,540,630,Eng. Nourhan Waleed
+17,COE-F11,AP01,S4_CNC_L3,CNC311,Computer Networks,Lab,Thursday,9:00,10:30,540,630,Eng. Fatma Elsayed
+17,B17-G22,AP05,S4_L1,CSC111,Fundamentals of Programming,Lab,Thursday,9:00,10:30,540,630,Eng. Nada Hamdy
+17,B18-G1,AP14,S4_AID_L3,AID311,Mathematics of Data Science,Lab,Thursday,9:00,10:30,540,630,Eng. Tarek Salah
+18,B07-F0,AP03,S4_CNC_L3,CNC314,Database Systems,Lab,Thursday,10:45,12:15,645,735,Eng. Salma Alashry
+18,COE-F21,AP10,S1_BIF_L3,CNC314,Database Systems,Lab,Thursday,10:45,12:15,645,735,Eng. Nourhan Waleed
+18,COE-F22,AP14,S1_AID_L3,CNC314,Database Systems,Lab,Thursday,10:45,12:15,645,735,Eng. Tarek Salah
+18,COE-F11,PROF15,S2_AID_L3,CNC314,Database Systems,Lab,Thursday,10:45,12:15,645,735,Dr. Mohamed Issa
+19,B07-F0,AP03,S3_AID_L3,CNC314,Database Systems,Lab,Thursday,12:30,2:00,750,840,Eng. Salma Alashry
+19,COE-F21,AP10,S4_AID_L3,CNC314,Database Systems,Lab,Thursday,12:30,2:00,750,840,Eng. Nourhan Waleed
+19,COE-F22,AP14,S1_CSC_L3,CNC314,Database Systems,Lab,Thursday,12:30,2:00,750,840,Eng. Tarek Salah
+19,COE-F11,PROF15,S1_CNC_L3,CNC314,Database Systems,Lab,Thursday,12:30,2:00,750,840,Dr. Mohamed Issa
+20,B07-F0,AP03,S2_CNC_L3,CNC314,Database Systems,Lab,Thursday,2:15,3:45,855,945,Eng. Salma Alashry
+20,COE-F21,AP10,S3_CNC_L3,CNC314,Database Systems,Lab,Thursday,2:15,3:45,855,945,Eng. Nourhan Waleed
+18,B17-G22,AP16,S1_AID_L4,AID321,Machine Learning,Lab,Thursday,10:45,12:15,645,735,Eng. Saeed Mostafa
+18,B18-G1,AP18,S2_AID_L4,AID321,Machine Learning,Lab,Thursday,10:45,12:15,645,735,Eng. Alaa Essam
+19,B17-G22,AP16,S4_AID_L4,AID321,Machine Learning,Lab,Thursday,12:30,2:00,750,840,Eng. Saeed Mostafa
+19,B18-G1,AP18,S3_AID_L4,AID321,Machine Learning,Lab,Thursday,12:30,2:00,750,840,Eng. Alaa Essam
+1,B07-F1,PROF20,S6_L2,MTH212,Probability and Statistics,Lecture,Sunday,9:00,10:30,540,630,Dr. Karim Hamed
+1,B07-F2,PROF02,S7_L2,ACM215,Ordinary Differential Equations,Lecture,Sunday,9:00,10:30,540,630,Dr. Ayman Arafa
+2,B07-F1,PROF20,S7_L2,MTH212,Probability and Statistics,Lecture,Sunday,10:45,12:15,645,735,Dr. Karim Hamed
+2,B07-F2,PROF02,S8_L2,ACM215,Ordinary Differential Equations,Lecture,Sunday,10:45,12:15,645,735,Dr. Ayman Arafa
+1,B07-F20,PROF04,S1_L1,LRA101,Japanese Culture,Lecture,Sunday,9:00,10:30,540,630,Sherine Elmotasem
+4,B07-F1,PROF17,S1_BIF_L4,BIF424,IT Infrastructure,Lecture,Sunday,2:15,3:45,855,945,Dr. Mohamed Akhames
+3,B07-F1,PROF02,S2_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Sunday,12:30,2:00,750,840,Dr. Ayman Arafa
+3,B07-F2,PROF20,S8_L2,MTH212,Probability and Statistics,Lecture,Sunday,12:30,2:00,750,840,Dr. Karim Hamed
+4,B07-F2,PROF02,S9_L2,ACM215,Ordinary Differential Equations,Lecture,Sunday,2:15,3:45,855,945,Dr. Ayman Arafa
+5,B07-F1,PROF20,S9_L2,MTH212,Probability and Statistics,Lecture,Monday,9:00,10:30,540,630,Dr. Karim Hamed
+2,B07-F20,PROF28,S1_L1,LRA105,Theater and Drama,Lecture,Sunday,10:45,12:15,645,735,Dr. Mohamed El-khateeb
+3,B07-F20,PROF27,S1_L1,LRA104,Music and Technology,Lecture,Sunday,12:30,2:00,750,840,Prof. Adel Al-senn
+8,B07-F1,PROF07,S1_AID_L4,AID427,New Trends in Data Science,Lecture,Monday,2:15,3:45,855,945,Dr. Ahmed Arafa
+5,B07-F2,PROF02,S6_L2,ACM215,Ordinary Differential Equations,Lecture,Monday,9:00,10:30,540,630,Dr. Ayman Arafa
+6,B07-F1,PROF02,S1_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Monday,10:45,12:15,645,735,Dr. Ayman Arafa
+5,B07-F20,PROF07,S2_AID_L4,AID427,New Trends in Data Science,Lecture,Monday,9:00,10:30,540,630,Dr. Ahmed Arafa
+1,B07-F21,PROF28,S4_L1,LRA105,Theater and Drama,Lecture,Sunday,9:00,10:30,540,630,Dr. Mohamed El-khateeb
+7,B07-F1,PROF16,S1_CSC_L4,CSC412,Software Security,Lecture,Monday,12:30,2:00,750,840,Dr. Mustafa AlSayed
+4,B07-F20,PROF20,S5_L2,MTH212,Probability and Statistics,Lecture,Sunday,2:15,3:45,855,945,Dr. Karim Hamed
+2,B07-F21,PROF04,S6_L1,LRA101,Japanese Culture,Lecture,Sunday,10:45,12:15,645,735,Sherine Elmotasem
+4,B07-F21,PROF27,S6_L1,LRA104,Music and Technology,Lecture,Sunday,2:15,3:45,855,945,Prof. Adel Al-senn
+7,B07-F2,PROF02,S1_L2,ACM215,Ordinary Differential Equations,Lecture,Monday,12:30,2:00,750,840,Dr. Ayman Arafa
+3,B07-F21,PROF28,S9_L1,LRA105,Theater and Drama,Lecture,Sunday,12:30,2:00,750,840,Dr. Mohamed El-khateeb
+1,B07-F22,PROF27,S9_L1,LRA104,Music and Technology,Lecture,Sunday,9:00,10:30,540,630,Prof. Adel Al-senn
+5,B07-F21,PROF28,S6_L1,LRA105,Theater and Drama,Lecture,Monday,9:00,10:30,540,630,Dr. Mohamed El-khateeb
+5,B07-F22,PROF04,S9_L1,LRA101,Japanese Culture,Lecture,Monday,9:00,10:30,540,630,Sherine Elmotasem
+3,B07-F22,PROF04,S3_L1,LRA101,Japanese Culture,Lecture,Sunday,12:30,2:00,750,840,Sherine Elmotasem
+8,B07-F2,PROF11,S1_CSC_L4,CSC415,New Trends in Computer Science,Lecture,Monday,2:15,3:45,855,945,Dr. Ahmed Bayumi
+8,B07-F20,PROF02,S9_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Monday,2:15,3:45,855,945,Dr. Ayman Arafa
+6,B07-F2,PROF20,S1_L2,MTH212,Probability and Statistics,Lecture,Monday,10:45,12:15,645,735,Dr. Karim Hamed
+9,B07-F1,PROF02,S7_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Tuesday,9:00,10:30,540,630,Dr. Ayman Arafa
+4,B07-F22,PROF28,S8_L1,LRA105,Theater and Drama,Lecture,Sunday,2:15,3:45,855,945,Dr. Mohamed El-khateeb
+4,B07-F23,PROF04,S2_L1,LRA101,Japanese Culture,Lecture,Sunday,2:15,3:45,855,945,Sherine Elmotasem
+2,B07-F22,PROF27,S8_L1,LRA104,Music and Technology,Lecture,Sunday,10:45,12:15,645,735,Prof. Adel Al-senn
+6,B07-F20,PROF04,S8_L1,LRA101,Japanese Culture,Lecture,Monday,10:45,12:15,645,735,Sherine Elmotasem
+9,B07-F2,PROF07,S4_AID_L4,AID427,New Trends in Data Science,Lecture,Tuesday,9:00,10:30,540,630,Dr. Ahmed Arafa
+6,B07-F21,PROF28,S3_L1,LRA105,Theater and Drama,Lecture,Monday,10:45,12:15,645,735,Dr. Mohamed El-khateeb
+10,B07-F1,PROF02,S4_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Tuesday,10:45,12:15,645,735,Dr. Ayman Arafa
+11,B07-F1,PROF02,S8_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Tuesday,12:30,2:00,750,840,Dr. Ayman Arafa
+9,B07-F20,PROF17,S1_CSC_L4,CSC411,Software Verification and Validation (V&V),Lecture,Tuesday,9:00,10:30,540,630,Dr. Mohamed Akhames
+7,B07-F20,PROF04,S7_L1,LRA101,Japanese Culture,Lecture,Monday,12:30,2:00,750,840,Sherine Elmotasem
+5,B07-F23,PROF27,S3_L1,LRA104,Music and Technology,Lecture,Monday,9:00,10:30,540,630,Prof. Adel Al-senn
+6,B07-F22,PROF27,S7_L1,LRA104,Music and Technology,Lecture,Monday,10:45,12:15,645,735,Prof. Adel Al-senn
+12,B07-F1,PROF02,S2_L2,ACM215,Ordinary Differential Equations,Lecture,Tuesday,2:15,3:45,855,945,Dr. Ayman Arafa
+5,B07-F24,PROF06,S1_BIF_L4,BIF412,Management and Design of Health Care Systems,Lecture,Monday,9:00,10:30,540,630,Dr. Sameh Sherif
+7,B07-F21,PROF27,S2_L1,LRA104,Music and Technology,Lecture,Monday,12:30,2:00,750,840,Prof. Adel Al-senn
+13,B07-F1,PROF02,S5_L2,ACM215,Ordinary Differential Equations,Lecture,Wednesday,9:00,10:30,540,630,Dr. Ayman Arafa
+8,B07-F21,PROF27,S4_L1,LRA104,Music and Technology,Lecture,Monday,2:15,3:45,855,945,Prof. Adel Al-senn
+15,B07-F1,PROF02,S5_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Wednesday,12:30,2:00,750,840,Dr. Ayman Arafa
+7,B07-F22,PROF20,S4_L2,MTH212,Probability and Statistics,Lecture,Monday,12:30,2:00,750,840,Dr. Karim Hamed
+10,B07-F2,PROF28,S2_L1,LRA105,Theater and Drama,Lecture,Tuesday,10:45,12:15,645,735,Dr. Mohamed El-khateeb
+11,B07-F2,PROF04,S4_L1,LRA101,Japanese Culture,Lecture,Tuesday,12:30,2:00,750,840,Sherine Elmotasem
+10,B07-F20,PROF17,S1_CSC_L4,CSC410,Software Quality,Lecture,Tuesday,10:45,12:15,645,735,Dr. Mohamed Akhames
+8,B07-F22,PROF04,S5_L1,LRA101,Japanese Culture,Lecture,Monday,2:15,3:45,855,945,Sherine Elmotasem
+14,B07-F1,PROF02,S6_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Wednesday,10:45,12:15,645,735,Dr. Ayman Arafa
+17,B07-F1,PROF02,S4_L2,ACM215,Ordinary Differential Equations,Lecture,Thursday,9:00,10:30,540,630,Dr. Ayman Arafa
+11,B07-F20,PROF28,S7_L1,LRA105,Theater and Drama,Lecture,Tuesday,12:30,2:00,750,840,Dr. Mohamed El-khateeb
+9,B07-F21,PROF27,S5_L1,LRA104,Music and Technology,Lecture,Tuesday,9:00,10:30,540,630,Prof. Adel Al-senn
+10,B07-F21,PROF07,S3_AID_L4,AID427,New Trends in Data Science,Lecture,Tuesday,10:45,12:15,645,735,Dr. Ahmed Arafa
+16,B07-F1,PROF02,S3_L1,MTH111,Mathematics (1) (Calculus + Linear Algebra),Lecture,Wednesday,2:15,3:45,855,945,Dr. Ayman Arafa
+18,B07-F1,PROF02,S3_L2,ACM215,Ordinary Differential Equations,Lecture,Thursday,10:45,12:15,645,735,Dr. Ayman Arafa
+11,B07-F21,PROF16,S1_CSC_L4,CSC426,Distributed Systems,Lecture,Tuesday,12:30,2:00,750,840,Dr. Mustafa AlSayed
+8,B07-F23,PROF20,S2_L2,MTH212,Probability and Statistics,Lecture,Monday,2:15,3:45,855,945,Dr. Karim Hamed
+9,B07-F22,PROF20,S3_L2,MTH212,Probability and Statistics,Lecture,Tuesday,9:00,10:30,540,630,Dr. Karim Hamed
+7,B07-F23,PROF28,S5_L1,LRA105,Theater and Drama,Lecture,Monday,12:30,2:00,750,840,Dr. Mohamed El-khateeb
+2,B07-F23,PROF13,S4_CNC_L3,CNC312,Foundations of Information Systems,Lecture,Sunday,10:45,12:15,645,735,Dr. Reda
+2,B07-F24,PROF03,S4_L1,PHY113,Physics 1,Lecture,Sunday,10:45,12:15,645,735,Dr. Adel Fathy
+1,B07-F23,PROF13,S1_CNC_L3,CNC312,Foundations of Information Systems,Lecture,Sunday,9:00,10:30,540,630,Dr. Reda
+1,B07-F24,PROF03,S7_L1,PHY113,Physics 1,Lecture,Sunday,9:00,10:30,540,630,Dr. Adel Fathy
+3,B07-F23,PROF03,S5_L1,PHY113,Physics 1,Lecture,Sunday,12:30,2:00,750,840,Dr. Adel Fathy
+4,B07-F24,PROF13,S3_CNC_L3,CNC312,Foundations of Information Systems,Lecture,Sunday,2:15,3:45,855,945,Dr. Reda
+4,B07-G1,PROF03,S1_L1,PHY113,Physics 1,Lecture,Sunday,2:15,3:45,855,945,Dr. Adel Fathy
+5,B07-G1,PROF13,S2_CNC_L3,CNC312,Foundations of Information Systems,Lecture,Monday,9:00,10:30,540,630,Dr. Reda
+6,B07-F23,AP13,S6_L1,PHY113,Physics 1,Lecture,Monday,10:45,12:15,645,735,Eng. Laila Ibrahim
+1,B07-G1,PROF19,S5_L2,CNC111,Networks and Web Programming,Lecture,Sunday,9:00,10:30,540,630,Dr. Nadia Fawzy
+3,B07-F24,AP09,S4_AID_L4,AID428,New Trends in AI,Lecture,Sunday,12:30,2:00,750,840,Eng. Heba Abdelkader
+1,B8-F6,PROF18,S3_AID_L4,AID411,BIG Data Analytics & Visualization,Lecture,Sunday,9:00,10:30,540,630,Prof. Marghany Hassan
+2,B07-G1,PROF19,S6_L2,CNC111,Networks and Web Programming,Lecture,Sunday,10:45,12:15,645,735,Dr. Nadia Fawzy
+6,B07-F24,AP18,S1_BIF_L4,BIF413,Algorithms in Bioinformatics,Lecture,Monday,10:45,12:15,645,735,Eng. Alaa Essam
+2,B8-F6,PROF11,S2_AID_L4,AID428,New Trends in AI,Lecture,Sunday,10:45,12:15,645,735,Dr. Ahmed Bayumi
+3,B07-G1,PROF19,S4_L2,CNC111,Networks and Web Programming,Lecture,Sunday,12:30,2:00,750,840,Dr. Nadia Fawzy
+3,B8-F6,PROF14,S3_AID_L4,AID413,Data Security,Lecture,Sunday,12:30,2:00,750,840,Prof. Samir Ahmed
+4,B8-F6,PROF19,S7_L2,CNC111,Networks and Web Programming,Lecture,Sunday,2:15,3:45,855,945,Dr. Nadia Fawzy
+5,B8-F6,PROF03,S2_L1,PHY113,Physics 1,Lecture,Monday,9:00,10:30,540,630,Dr. Adel Fathy
+10,B07-F22,AP07,S3_L2,CNC111,Networks and Web Programming,Lecture,Tuesday,10:45,12:15,645,735,Eng. Menna Hamdi
+5,B8-F7,PROF19,S8_L2,CNC111,Networks and Web Programming,Lecture,Monday,9:00,10:30,540,630,Dr. Nadia Fawzy
+11,B07-F22,AP07,S2_L2,CNC111,Networks and Web Programming,Lecture,Tuesday,12:30,2:00,750,840,Eng. Menna Hamdi
+8,B07-F24,PROF14,S2_AID_L4,AID413,Data Security,Lecture,Monday,2:15,3:45,855,945,Prof. Samir Ahmed
+1,B8-F7,AP03,S1_BIF_L3,CSC114,Algorithms Analysis and Design,Lecture,Sunday,9:00,10:30,540,630,Eng. Salma Alashry
+4,B8-F7,AP09,S3_AID_L4,AID428,New Trends in AI,Lecture,Sunday,2:15,3:45,855,945,Eng. Heba Abdelkader
+1,B8-F10,PROF14,S1_AID_L4,AID413,Data Security,Lecture,Sunday,9:00,10:30,540,630,Prof. Samir Ahmed
+9,B07-F23,PROF03,S3_L1,PHY113,Physics 1,Lecture,Tuesday,9:00,10:30,540,630,Dr. Adel Fathy
+7,B07-F24,PROF15,S1_BIF_L4,BIF425,New Trends in Bioinformatics,Lecture,Monday,12:30,2:00,750,840,Dr. Mohamed Issa
+4,B8-F10,AP02,S2_AID_L4,AID411,BIG Data Analytics & Visualization,Lecture,Sunday,2:15,3:45,855,945,Eng. Nada Essam
+9,B07-F24,PROF19,S1_L2,CNC111,Networks and Web Programming,Lecture,Tuesday,9:00,10:30,540,630,Dr. Nadia Fawzy
+6,B07-G1,AP02,S4_AID_L4,AID411,BIG Data Analytics & Visualization,Lecture,Monday,10:45,12:15,645,735,Eng. Nada Essam
+9,B07-G1,AP09,S1_AID_L4,AID428,New Trends in AI,Lecture,Tuesday,9:00,10:30,540,630,Eng. Heba Abdelkader
+10,B07-F23,PROF19,S9_L2,CNC111,Networks and Web Programming,Lecture,Tuesday,10:45,12:15,645,735,Dr. Nadia Fawzy
+6,B8-F6,PROF03,S9_L1,PHY113,Physics 1,Lecture,Monday,10:45,12:15,645,735,Dr. Adel Fathy
+7,B07-G1,PROF03,S8_L1,PHY113,Physics 1,Lecture,Monday,12:30,2:00,750,840,Dr. Adel Fathy
+7,B8-F6,PROF14,S4_AID_L4,AID413,Data Security,Lecture,Monday,12:30,2:00,750,840,Prof. Samir Ahmed
+2,B8-F7,AP02,S1_AID_L4,AID411,BIG Data Analytics & Visualization,Lecture,Sunday,10:45,12:15,645,735,Eng. Nada Essam
+2,B8-F10,AP01,S1_BIF_L3,CNC311,Computer Networks,Lecture,Sunday,10:45,12:15,645,735,Eng. Fatma Elsayed
+1,B8-F11,AP06,S1_CSC_L3,AID311,Mathematics of Data Science,Lecture,Sunday,9:00,10:30,540,630,Eng. Salma Waleed
+2,B8-F11,AP05,S1_CSC_L3,CNC311,Computer Networks,Lecture,Sunday,10:45,12:15,645,735,Eng. Nada Hamdy
+3,B8-F7,AP06,S1_BIF_L3,AID312,Intelligent Systems,Lecture,Sunday,12:30,2:00,750,840,Eng. Salma Waleed
+3,B8-F10,AP10,S1_CSC_L3,AID312,Intelligent Systems,Lecture,Sunday,12:30,2:00,750,840,Eng. Nourhan Waleed
+5,B8-F10,PROF33,S1_L1,LRA401,Japanese Language (1),Lecture,Monday,9:00,10:30,540,630,Dr. Kenji Tanaka
+3,B8-F11,AP01,S4_CNC_L3,CNC311,Computer Networks,Lecture,Sunday,12:30,2:00,750,840,Eng. Fatma Elsayed
+3,B8-F25,PROF05,S7_L1,ECE111,Digital Logic Design,Lecture,Sunday,12:30,2:00,750,840,Prof. Ahmed Allam
+1,B8-F25,PROF33,S8_L1,LRA401,Japanese Language (1),Lecture,Sunday,9:00,10:30,540,630,Dr. Kenji Tanaka
+5,B8-F11,AP04,S8_L1,CSC111,Fundamentals of Programming,Lecture,Monday,9:00,10:30,540,630,Eng. Mariam Ismael
+8,B07-G1,PROF06,S8_L1,ECE111,Digital Logic Design,Lecture,Monday,2:15,3:45,855,945,Dr. Sameh Sherif
+2,B8-F25,PROF33,S9_L1,LRA401,Japanese Language (1),Lecture,Sunday,10:45,12:15,645,735,Dr. Kenji Tanaka
+7,B8-F7,AP04,S9_L1,CSC111,Fundamentals of Programming,Lecture,Monday,12:30,2:00,750,840,Eng. Mariam Ismael
+9,B8-F6,PROF05,S9_L1,ECE111,Digital Logic Design,Lecture,Tuesday,9:00,10:30,540,630,Prof. Ahmed Allam
+1,B8-G41,PROF34,S1_L2,LRA403,Japanese Language (3),Lecture,Sunday,9:00,10:30,540,630,Dr. Yumi Yamamoto
+2,B8-G41,AP11,S1_L2,CSC211,Software Engineering,Lecture,Sunday,10:45,12:15,645,735,Eng. Menna Magdy
+1,B9-F4,PROF35,S2_L2,LRA403,Japanese Language (3),Lecture,Sunday,9:00,10:30,540,630,Dr. Haruto Ito
+2,B9-F4,AP12,S2_L2,CSC211,Software Engineering,Lecture,Sunday,10:45,12:15,645,735,Eng. Nada Ahmed
+2,B9-F5,PROF34,S3_L2,LRA403,Japanese Language (3),Lecture,Sunday,10:45,12:15,645,735,Dr. Yumi Yamamoto
+1,B9-F5,AP11,S3_L2,CSC211,Software Engineering,Lecture,Sunday,9:00,10:30,540,630,Eng. Menna Magdy
+2,B9-F13,PROF35,S4_L2,LRA403,Japanese Language (3),Lecture,Sunday,10:45,12:15,645,735,Dr. Haruto Ito
+1,B9-F13,AP12,S4_L2,CSC211,Software Engineering,Lecture,Sunday,9:00,10:30,540,630,Eng. Nada Ahmed
+4,B8-F11,AP04,S7_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,2:15,3:45,855,945,Eng. Mariam Ismael
+3,B8-G41,PROF33,S5_L2,LRA403,Japanese Language (3),Lecture,Sunday,12:30,2:00,750,840,Dr. Kenji Tanaka
+5,B8-F25,PROF34,S7_L1,LRA401,Japanese Language (1),Lecture,Monday,9:00,10:30,540,630,Dr. Yumi Yamamoto
+3,B9-F4,AP04,S6_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,12:30,2:00,750,840,Eng. Mariam Ismael
+7,B8-F10,AP05,S1_L1,CSC111,Fundamentals of Programming,Lecture,Monday,12:30,2:00,750,840,Eng. Nada Hamdy
+9,B8-F7,PROF06,S1_L1,ECE111,Digital Logic Design,Lecture,Tuesday,9:00,10:30,540,630,Dr. Sameh Sherif
+6,B8-F7,PROF33,S2_L1,LRA401,Japanese Language (1),Lecture,Monday,10:45,12:15,645,735,Dr. Kenji Tanaka
+1,B9-F14,AP04,S2_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,9:00,10:30,540,630,Eng. Mariam Ismael
+2,B9-F14,PROF05,S2_L1,ECE111,Digital Logic Design,Lecture,Sunday,10:45,12:15,645,735,Prof. Ahmed Allam
+4,B8-F25,PROF33,S3_L1,LRA401,Japanese Language (1),Lecture,Sunday,2:15,3:45,855,945,Dr. Kenji Tanaka
+1,B9-F22,AP05,S3_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,9:00,10:30,540,630,Eng. Nada Hamdy
+11,B07-F23,PROF05,S3_L1,ECE111,Digital Logic Design,Lecture,Tuesday,12:30,2:00,750,840,Prof. Ahmed Allam
+3,B9-F5,PROF34,S4_L1,LRA401,Japanese Language (1),Lecture,Sunday,12:30,2:00,750,840,Dr. Yumi Yamamoto
+4,B8-G41,AP05,S4_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,2:15,3:45,855,945,Eng. Nada Hamdy
+5,B8-G41,PROF05,S4_L1,ECE111,Digital Logic Design,Lecture,Monday,9:00,10:30,540,630,Prof. Ahmed Allam
+4,B9-F4,PROF34,S5_L1,LRA401,Japanese Language (1),Lecture,Sunday,2:15,3:45,855,945,Dr. Yumi Yamamoto
+1,B9-G25,PROF01,S5_L1,CSC111,Fundamentals of Programming,Lecture,Sunday,9:00,10:30,540,630,Dr. Reda Elbasiony
+6,B8-F10,PROF05,S5_L1,ECE111,Digital Logic Design,Lecture,Monday,10:45,12:15,645,735,Prof. Ahmed Allam
+7,B8-F11,PROF33,S6_L1,LRA401,Japanese Language (1),Lecture,Monday,12:30,2:00,750,840,Dr. Kenji Tanaka
+10,B07-F24,PROF06,S6_L1,ECE111,Digital Logic Design,Lecture,Tuesday,10:45,12:15,645,735,Dr. Sameh Sherif
+3,B9-F13,PROF35,S6_L2,LRA403,Japanese Language (3),Lecture,Sunday,12:30,2:00,750,840,Dr. Haruto Ito
+5,B9-F4,AP11,S5_L2,CSC211,Software Engineering,Lecture,Monday,9:00,10:30,540,630,Eng. Menna Magdy
+1,B17-F3,AP01,S3_AID_L3,CNC311,Computer Networks,Lecture,Sunday,9:00,10:30,540,630,Eng. Fatma Elsayed
+4,B9-F5,AP06,S4_CNC_L3,AID312,Intelligent Systems,Lecture,Sunday,2:15,3:45,855,945,Eng. Salma Waleed
+3,B9-F14,AP05,S3_CNC_L3,CNC311,Computer Networks,Lecture,Sunday,12:30,2:00,750,840,Eng. Nada Hamdy
+1,B17-F8,AP10,S3_CNC_L3,AID312,Intelligent Systems,Lecture,Sunday,9:00,10:30,540,630,Eng. Nourhan Waleed
+2,B9-F22,PROF14,S2_CNC_L3,CNC311,Computer Networks,Lecture,Sunday,10:45,12:15,645,735,Prof. Samir Ahmed
+1,B17-F9,PROF11,S2_CNC_L3,AID312,Intelligent Systems,Lecture,Sunday,9:00,10:30,540,630,Dr. Ahmed Bayumi
+4,B9-F13,AP01,S1_CNC_L3,CNC311,Computer Networks,Lecture,Sunday,2:15,3:45,855,945,Eng. Fatma Elsayed
+2,B9-G25,AP06,S1_CNC_L3,AID312,Intelligent Systems,Lecture,Sunday,10:45,12:15,645,735,Eng. Salma Waleed
+1,B17-F13,AP14,S4_AID_L3,AID311,Mathematics of Data Science,Lecture,Sunday,9:00,10:30,540,630,Eng. Tarek Salah
+5,B9-F5,AP01,S4_AID_L3,CNC311,Computer Networks,Lecture,Monday,9:00,10:30,540,630,Eng. Fatma Elsayed
+2,B17-F3,AP10,S4_AID_L3,AID312,Intelligent Systems,Lecture,Sunday,10:45,12:15,645,735,Eng. Nourhan Waleed
+2,B17-F8,AP14,S3_AID_L3,AID311,Mathematics of Data Science,Lecture,Sunday,10:45,12:15,645,735,Eng. Tarek Salah
+4,B9-F14,AP10,S3_AID_L3,AID312,Intelligent Systems,Lecture,Sunday,2:15,3:45,855,945,Eng. Nourhan Waleed
+1,B17-F14,PROF08,S2_AID_L3,AID311,Mathematics of Data Science,Lecture,Sunday,9:00,10:30,540,630,Dr. Ahmed Anter
+4,B9-F22,AP11,S8_L2,CSC211,Software Engineering,Lecture,Sunday,2:15,3:45,855,945,Eng. Menna Magdy
+4,B9-G25,PROF11,S2_AID_L3,AID312,Intelligent Systems,Lecture,Sunday,2:15,3:45,855,945,Dr. Ahmed Bayumi
+4,B17-F3,AP12,S6_L2,CSC211,Software Engineering,Lecture,Sunday,2:15,3:45,855,945,Eng. Nada Ahmed
+5,B9-F13,PROF35,S7_L2,LRA403,Japanese Language (3),Lecture,Monday,9:00,10:30,540,630,Dr. Haruto Ito
+3,B9-F22,AP11,S7_L2,CSC211,Software Engineering,Lecture,Sunday,12:30,2:00,750,840,Eng. Menna Magdy
+6,B8-F11,PROF34,S8_L2,LRA403,Japanese Language (3),Lecture,Monday,10:45,12:15,645,735,Dr. Yumi Yamamoto
+6,B8-F25,PROF35,S9_L2,LRA403,Japanese Language (3),Lecture,Monday,10:45,12:15,645,735,Dr. Haruto Ito
+3,B9-G25,AP12,S9_L2,CSC211,Software Engineering,Lecture,Sunday,12:30,2:00,750,840,Eng. Nada Ahmed
+5,B9-F14,AP05,S2_AID_L3,CNC311,Computer Networks,Lecture,Monday,9:00,10:30,540,630,Eng. Nada Hamdy
+5,B9-F22,PROF14,S1_AID_L3,CNC311,Computer Networks,Lecture,Monday,9:00,10:30,540,630,Prof. Samir Ahmed
+6,B8-G41,AP06,S1_AID_L3,AID312,Intelligent Systems,Lecture,Monday,10:45,12:15,645,735,Eng. Salma Waleed
+2,B17-F9,PROF08,S1_AID_L3,AID311,Mathematics of Data Science,Lecture,Sunday,10:45,12:15,645,735,Dr. Ahmed Anter
+3,B17-F3,AP03,S4_AID_L3,CNC314,Database Systems,Lecture,Sunday,12:30,2:00,750,840,Eng. Salma Alashry
+5,B9-G25,AP03,S1_BIF_L3,CNC314,Database Systems,Lecture,Monday,9:00,10:30,540,630,Eng. Salma Alashry
+3,B17-F8,AP14,S3_AID_L3,CNC314,Database Systems,Lecture,Sunday,12:30,2:00,750,840,Eng. Tarek Salah
+5,B17-F3,AP10,S1_CNC_L3,CNC314,Database Systems,Lecture,Monday,9:00,10:30,540,630,Eng. Nourhan Waleed
+4,B17-F8,AP14,S1_CSC_L3,CNC314,Database Systems,Lecture,Sunday,2:15,3:45,855,945,Eng. Tarek Salah
+4,B17-F9,PROF15,S2_CNC_L3,CNC314,Database Systems,Lecture,Sunday,2:15,3:45,855,945,Dr. Mohamed Issa
+1,B17-F15,PROF15,S1_AID_L3,CNC314,Database Systems,Lecture,Sunday,9:00,10:30,540,630,Dr. Mohamed Issa
+5,B17-F8,AP14,S3_CNC_L3,CNC314,Database Systems,Lecture,Monday,9:00,10:30,540,630,Eng. Tarek Salah
+2,B17-F13,AP03,S2_AID_L3,CNC314,Database Systems,Lecture,Sunday,10:45,12:15,645,735,Eng. Salma Alashry
+5,B17-F9,PROF15,S4_CNC_L3,CNC314,Database Systems,Lecture,Monday,9:00,10:30,540,630,Dr. Mohamed Issa
+8,B8-F6,AP03,S3_AID_L4,AID321,Machine Learning,Lecture,Monday,2:15,3:45,855,945,Eng. Salma Alashry
+3,B17-F9,AP16,S1_AID_L4,AID321,Machine Learning,Lecture,Sunday,12:30,2:00,750,840,Eng. Saeed Mostafa
+9,B8-F10,AP03,S2_AID_L4,AID321,Machine Learning,Lecture,Tuesday,9:00,10:30,540,630,Eng. Salma Alashry
+8,B8-F7,AP16,S4_AID_L4,AID321,Machine Learning,Lecture,Monday,2:15,3:45,855,945,Eng. Saeed Mostafa

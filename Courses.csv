@@ -1,0 +1,53 @@
+CourseID,CourseName,Credits,Type,Year,Specialization,HasLecture,HasLab,IsGradProject
+LRA401,Japanese Language (1),1,Lecture,1,Common,1,0,0
+CSC111,Fundamentals of Programming,3,Lecture and Lab,1,Common,1,1,0
+MTH111,Mathematics (1) (Calculus + Linear Algebra),3,Lecture,1,Common,1,0,0
+PHY113,Physics 1,3,Lecture and Lab,1,Common,1,1,0
+ECE111,Digital Logic Design,3,Lecture and Lab,1,Common,1,1,0
+LRA101,Japanese Culture,2,Lecture,1,Common,1,0,0
+LRA104,Music and Technology,2,Lecture,1,Common,1,0,0
+LRA105,Theater and Drama,2,Lecture,1,Common,1,0,0
+MTH212,Probability and Statistics,3,Lecture,2,Common,1,0,0
+ACM215,Ordinary Differential Equations,3,Lecture,2,Common,1,0,0
+LRA403,Japanese Language (3),1,Lecture,2,Common,1,0,0
+CSC211,Software Engineering,3,Lecture and Lab,2,Common,1,1,0
+CNC111,Networks and Web Programming,3,Lecture and Lab,2,Common,1,1,0
+CSC114,Algorithms Analysis and Design,3,Lecture and Lab,2,Common,1,1,0
+CSE214,Computer Organization,3,Lecture and Lab,2,Common,1,1,0
+LRA306,Natural Resources and Sustainability,2,Lecture,2,Common,1,0,0
+ECE324,Digital Signal Processing,3,Lecture and Lab,3,Common,1,1,0
+CSC317,Computer Graphics and Visualization,3,Lecture and Lab,3,Common,1,1,0
+AID312,Intelligent Systems,3,Lecture and Lab,3,Common,1,1,0
+CNC311,Computer Networks,3,Lecture and Lab,3,Common,1,1,0
+CNC314,Database Systems,3,Lecture and Lab,3,Common,1,1,0
+CNC312,Foundations of Information Systems,3,Lecture and Lab,3,CNC,1,1,0
+AID311,Mathematics of Data Science,3,Lecture and Lab,3,AID,1,1,0
+CSC314,Software Modeling and Analysis,3,Lecture and Lab,3,CSC,1,1,0
+BIF311,Human Biology,3,Lecture and Lab,3,BIF,1,1,0
+CNC413,Digital Forensics,3,Lecture and Lab,4,CNC,1,1,0
+CNC419,IT Security and Risk Management,3,Lecture and Lab,4,CNC,1,1,0
+CNC418,Software Security,3,Lecture and Lab,4,CNC,1,1,0
+CNC324,IT Infrastructure,3,Lecture and Lab,4,CNC,1,1,0
+CNC411,Fundamentals of Cybersecurity,3,Lecture and Lab,4,CNC,1,1,0
+CNC415,Network Design and Management,3,Lecture and Lab,4,CNC,1,1,0
+CNC414,Graduation Project (1),2,Lab,4,CNC,0,1,1
+AID321,Machine Learning,3,Lecture and Lab,4,AID,1,1,0
+AID428,New Trends in AI,3,Lecture and Lab,4,AID,1,1,0
+AID411,BIG Data Analytics & Visualization,3,Lecture and Lab,4,AID,1,1,0
+AID417,Advanced Data Mining,3,Lecture and Lab,4,AID,1,1,0
+AID414,Graduation Project (1),2,Lab,4,AID,0,1,1
+AID413,Data Security,3,Lecture and Lab,4,AID,1,1,0
+AID427,New Trends in Data Science,3,Lecture and Lab,4,AID,1,1,0
+CSC414,Game Design & Development,3,Lecture and Lab,4,CSC,1,1,0
+CSC415,New Trends in Computer Science,3,Lecture and Lab,4,CSC,1,1,0
+CSC426,Distributed Systems,3,Lecture and Lab,4,CSC,1,1,0
+CSC410,Software Quality,3,Lecture and Lab,4,CSC,1,1,0
+CSC412,Software Security,3,Lecture and Lab,4,CSC,1,1,0
+CSC413,Graduation Project (1),2,Lab,4,CSC,0,1,1
+CSC411,Software Verification and Validation (V&V),3,Lecture and Lab,4,CSC,1,1,0
+BIF412,Management and Design of Health Care Systems,3,Lecture and Lab,4,BIF,1,1,0
+BIF411,Structural Bioinformatics,3,Lecture and Lab,4,BIF,1,1,0
+BIF413,Algorithms in Bioinformatics,3,Lecture and Lab,4,BIF,1,1,0
+BIF425,New Trends in Bioinformatics,3,Lecture and Lab,4,BIF,1,1,0
+BIF410,Graduation Project (1),2,Lab,4,BIF,0,1,1
+BIF424,IT Infrastructure,3,Lecture and Lab,4,BIF,1,1,0

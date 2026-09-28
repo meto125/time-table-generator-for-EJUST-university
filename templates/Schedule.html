@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table { border-collapse: collapse; width: 100%; }
+td, th { border: 1px solid #444; padding: 6px; font-size: 12px; }
+th { background: #eee; }
+</style>
+</head>
+
+<body>
+
+{% for year, sections in schedule.items() %}
+<h3>YEAR {{ year }}</h3>
+
+<table>
+<tr>
+    <th>Time / Section</th>
+    {% for sec in sections.keys() %}
+        <th>{{ sec }}</th>
+    {% endfor %}
+</tr>
+
+{% for day in days %}
+<tr>
+    <th colspan="{{ sections|length + 1 }}">{{ day }}</th>
+</tr>
+
+{% for slot in slots %}
+<tr>
+    <td><b>{{ slot }}</b></td>
+
+    {% for sec in sections.keys() %}
+        {% set cell = sections[sec].get(day, {}).get(slot) %}
+        <td style="background: {{ cell.color if cell }}">
+            {% if cell %}
+                {{ cell.course }}<br>
+                {{ cell.instr }}<br>
+                {{ cell.type }} – {{ cell.room }}
+            {% endif %}
+        </td>
+    {% endfor %}
+</tr>
+{% endfor %}
+{% endfor %}
+</table>
+
+{% endfor %}
+
+</body>
+</html>
